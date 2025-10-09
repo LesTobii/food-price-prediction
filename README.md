@@ -33,10 +33,10 @@ Run the app using Docker — no Python installation required.
 Steps:
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 2. Open your terminal or PowerShell in the project folder.
-3. Copy and paste these commands:
+3. Copy and paste these commands(in the quotes): 
 
-docker build -t ffp-app .
-docker run -p 8501:8501 ffp-app
+- "docker build -t ffp-app ."
+- "docker run -p 8501:8501 ffp-app"
 
 4. When it finishes, open your browser and go to:
  http://localhost:8501
