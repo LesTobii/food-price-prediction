@@ -27,7 +27,6 @@ This repository demonstrates:
 ## How to Run the App
 
 
-
 OPTION 1  (Recommended)
 Run the app using Docker — no Python installation required.
 
@@ -39,7 +38,7 @@ Steps:
 docker build -t ffp-app .
 docker run -p 8501:8501 ffp-app
 
-4.When it finishes, open your browser and go to:
+4. When it finishes, open your browser and go to:
  http://localhost:8501
 
 OPTION 2 
@@ -56,7 +55,7 @@ pip install -r requirements.txt
 4.Then run the app with:
 streamlit run app.py
 
-5.It will open automatically in your browser at:
+5. It will open automatically in your browser at:
 http://localhost:8501
 
 ----------------------------------------------------------------------------
@@ -72,7 +71,7 @@ Add a FastAPI or Flask backend to serve predictions through REST endpoints.
 
 Store and retrieve data from a cloud database.
 
-☁️ Deployment & Scaling
+Deployment & Scaling
 
 Deploy to cloud for public access
 
